@@ -1,0 +1,620 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: Circular,-apple-system, BlinkMacSystemFont;
+}
+.main-page {
+    height: 100%;
+    background-image: url("images/에어비앤비백그라운드.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main-navi {
+
+    padding: 30px;
+    height: 110px; 
+    display: grid;
+    grid-template-columns:  1fr 7fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    vertical-align: middle;
+    /* display: flex;
+    text-align: start; */
+}
+
+
+
+.main-navi .item > a {
+    font-size: 14px;
+    font-weight: 800;
+    color: white;
+    text-decoration: none;
+    /* align-items: flex-end; */
+    
+}
+.main-navi .item > a:hover {
+    text-decoration: underline;
+    
+}
+.main-navi .item {
+    margin-left: 0px;
+}
+
+    /* Main form */
+.main-form {
+    background-color: white;
+    margin-left: 10%;
+    margin-top: 1%;
+    padding: 32px 32px 24px 32px;
+    width: 441px;
+    border-radius: 4px;
+    overflow: hidden;
+    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+/* .main-form:after{
+    clear: both; display: block; content: none;} */
+/* .main-form > h1 {
+    color: #ffffff;
+    width: 377px;
+    height: 72px;
+} */
+/* .main- form > div {
+    display : inline-block;
+} */
+
+.form-title2 {
+    font-size: 12px;
+    padding-top: 20px;
+    font-weight: 800;
+}
+.form > input {
+    padding: 10px;
+    font-size: 20px;
+    /* height: 46px; */
+    border: solid 1px #ccc;
+    border-radius: 5px;
+}
+
+.form-1 > input {
+    width: 375px;
+}
+.form-2 > input {
+    width: 185px;
+}
+.inline-block {
+    display: inline-block;
+    /* display: flex; */
+}
+.search-button {
+    background-color: #FF5A5F;
+    padding: 10px 22px;
+    margin : 20px 0;
+    border: 2px solid #FF5A5F;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 900;
+    color: white;
+    float: right;
+}
+.bottom-text {
+    color: white;
+    font-weight: 800;
+    position: absolute;
+    text-align: right;
+    bottom: 10px;
+    right: 5px;
+}
+/*   Main page 끝      */
+/*   Sub page 시작      */
+.sub-page {
+    margin-top: 30px;
+    padding: 0 40px;
+   /*  가로축으로 패딩을 10% 줘서 양쪽 옆의 공간을 뛰움 */
+}
+/* .sub-page .text-1 { font-size: 24px; font-weight: 800; }
+.sub-page .text-2 { font-size:     ; font-weight:    ; }
+.sub-page .text-3 { font-size: 14px; font-weight: 800; }
+.sub-page .text-4 { font-size:     ; }
+.sub-page .text-5 { font-size: 16px; } */
+.look-around > .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    padding-bottom: 40px;
+}
+.look-around > .wrapper > div {
+    display: flex; 
+    position: relative;
+    /* height: ;
+    width: ;
+    margin: ; */
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 4px 0px;
+
+}
+.look-around > .wrapper > div > .text {
+    /* width: ; */
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* flex-direction: ; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    padding-left: 24px;
+
+}
+.look-around > .wrapper > div > .picture {
+    height: 84px;
+}
+.text-3 {
+    grid-row:2/3;
+    font-weight: 800;
+}
+.wrapper > .home {
+    margin-left: 24px;
+}
+
+.text-1 {
+    color: #484848;
+    font-size: 24px;
+    display: block;
+    font-weight: 800;
+}
+.wrapper {
+    /* display: flex; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    border: solid 1px white;
+    border-radius: 5px;
+}
+.picture > img {
+    width: 126px;
+    height: 84px;
+    border-radius: 5px;
+}
+.text {
+    padding: 12px 16px 16px;
+}
+.text-3 {
+    font-size: 14px;
+}
+
+.intro {
+    background-image: url("https://a0.muscache.com/im/pictures/a211e229-4c34-44d9-a7cb-82304660bc27.jpg?aki_policy=large");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 80px;
+    border-radius: 10px;
+    
+}
+
+.intro > .cooking > div {
+    color: white;
+}
+.text-area {
+    font-weight: 600;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.text-area > .text1 {
+    font-size: 12px;
+
+}
+.text-area > .text2 {
+    font-size: 30px;
+}
+.text-area > .text3 {
+    font-size: 16px;
+}
+
+.text-area >.text4 {
+    border: white;
+}
+.text-area >.text4 >a {
+    color: black;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 20px 18px;
+
+}
+
+
+.text-area > .text4 {
+    border-radius: 5px;
+}
+.intro-txt {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.intro-pic {
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 10px;
+    /* border: 1px solid black; */
+    
+}
+.intro-pic > a {
+    text-decoration: none;
+}
+
+
+
+.arrow:hover {
+    color : black;
+}
+.adventure {
+    padding-top:35px;
+    padding-bottom: 70px;
+}
+.intro-pic > .adventure-pic > img {
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+.intro-pic > .adventure-pic > .country-name {
+    color: #767676;
+    font-size: 12px;
+    font-weight: 800;
+}
+.intro-pic > .adventure-pic > .country-name > .country-pharase {
+    color: #484848;
+    font-size: 16px;
+}
+.intro-pic > .adventure-pic > a{
+    color: #484848;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.intro-pic > i {
+    color: #008489;
+}
+.intro-pic > .adventure-pic >.only-score {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.intro-pic > .adventure-bottomtext{
+    padding-top: 35px;
+
+}
+.intro-pic > .adventure-bottomtext > a {
+    color: #008489;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.intro-pic > .adventure-bottomtext > a:hover {
+    text-decoration: underline;
+}
+
+.accommodation {
+    color: #484848;
+    font-size: 14px;
+    font-weight: normal;
+}
+.accommodation .accommodation-title {
+    color: #484848;
+    font-size: 24px;
+    font-weight: normal;
+}
+/* .accommodation .accommodation-title .accommodation-subtitle {
+   
+} */
+.Aplus {
+    background-image: url("images/에어비앤비플러스숙소.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    height: 500px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+   
+}
+
+.Aplus > .Aplus-word-space {
+   grid-row: 2/3;
+   grid-column: 3/4;
+}
+
+.Aplus-word > .button > button{
+    background: #FFFFFF;
+    border: #ffffff;
+    padding: 16px 15px;
+    border-radius: 5px;
+    margin-left: 44px;
+    margin-top: 23px;
+    
+}
+.Aplus-word > .button > button > span > a {
+    text-decoration: none;
+    font-size: 10px;
+    background: #FFFFFF;
+    padding: 6px 15px;
+    color: #484848;
+}
+.universe-accommodation-intro {
+    padding: 30px 0px;
+    font-size: 24px;
+    
+}
+.universe-accommodation {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 25px;
+}
+.universe-accommodation .intro-dorm-txt {
+    display: flex;
+    
+}
+.universe-accommodation > .intro-dorm-txt > .empty {
+    border:solid 1px;
+    padding: 1px 2px;                         
+    border-radius: 5px;
+    color:black;
+}
+.universe-accommodation > .PLUS {
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(146, 23, 77);
+    border-color: rgb(146, 23, 77);
+    color: white;
+    font-weight: 400;
+    padding: 1px 2px;
+}
+.intro-dorm-txt {
+    display: flex;
+    
+}
+.universe-accommodation > .item {
+    margin-bottom: 30px;
+}
+.universe-accommodation > .item > .star {
+    color: #FF5A5F;
+    /* float: right; */
+}
+.universe-accommodation > .item > a > img{
+    width: 350px;
+    height: 250px;
+}
+.universe-accommodation > .item > a {
+    color: #484848;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+.universe-accommodation > .bottomtxt > a{
+    color: #008489;
+    font-size: 14px;
+    font-weight: 800;
+    text-decoration: none;
+}
+/* 별모양 아이콘 */
+i {
+    color:red;
+   
+}
+
+
+.universe-accommodation > .bottomtxt > a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* 로그인 창 css */
+
+* {box-sizing: border-box;}
+
+    /* 텍스트 상자 */
+    .modal-content .text_input {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    /* 버튼 스타일 */
+   .modal-content button {
+        background-color: red;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    .modal-content .container {
+        padding: 10px 16px;
+    }
+
+    /* 배경화면 (로그인창 바깥) */
+    .modal {
+        display: none; 
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto; /*필요하면 스크롤 가능*/
+        background-color: #474e5d;
+    }
+    /* 로그인창 */
+    .modal-content {
+        display: inline-block;
+        background-color: #fefefe;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        border: 1px solid #888;
+        width: 30%;
+    }
+    .modal-content hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+    /* 종료버튼 (x) */
+    .modal-content .close {
+        float: right;
+        font-size: 40px;
+        font-weight: bold;
+        color: black;
+    }
+
+    .modal-content .close:hover,
+    .close:focus {
+        color: #f44336;
+        cursor: pointer;
+    }
+
+
+
+    /* 조인 css 시작  */
+
+
+    * {box-sizing: border-box;} 
+.join-popup {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #484848;
+    cursor: pointer;
+
+}
+.join-window {
+
+    width: 568px;
+    height: 363px;
+    padding: 32px;
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    /* 화면 정 가운데 오게 한다. */
+}
+.join-popup .form {
+    width: 504px;
+    padding: 48px;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    border-width: 2px;
+    padding: 10px 22px;
+    font-size: 16px;
+}
+/* .join-popup .join-window .close-button .close {
+   width: 16px;
+   height: 16px;
+} */
+.join-popup .logo {
+    padding-right: 5px;
+}
+.join-popup .fbook-login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #4568b2;
+    color: white;
+    
+    font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif
+}
+.join-popup .google-login {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #ffffff;
+    
+    border: solid 1px rgb(216, 210, 210); }
+
+.join-popup .email-signup {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: #FF5A5F;
+    color: #ffffff;
+}   
+.close-button .close {
+    width: 16px;
+    height: 16px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.join-popup .close-button > button {
+    background-color: white;
+    /* border: 0;
+    outline: 0; */
+    border-width: 0px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 4px 2px rgb(216,216,216);
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 100%;
+}
+
+.join-popup .line-combo {
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+}
+.join-popup .line-combo > span {
+    font-weight: 800;
+}
+.join-popup .line-left{
+    width: 220px;
+    border-bottom: 1px solid #e4e4e4;
+    position: absolute;
+    top: 50%;
+}		
+.join-popup .line-right{
+    width: 220px;
+    border-bottom: 1px solid #e4e4e4;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}		
+.join-popup .bottom-line-combo {
+    text-align: center;
+    margin: 15px 0;
+    position: relative;
+}
+.join-popup .bottom-line-combo .line{
+    width: 510px;
+    border-bottom: 1px solid #e4e4e4;
+    position: absolute;
+    top: 70%;
+}
+.join-bottom-text {
+    padding-top: 15px;
+}
+.join-bottom-text > span {
+    font-weight: 400;
+}
+.join-bottom-text > .login-button {
+    background-color: white;
+    border: 0;
+    outline: 0;
+}
+.join-bottom-text > .login-button > a {
+    color: #008489;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+}
